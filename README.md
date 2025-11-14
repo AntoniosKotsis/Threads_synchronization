@@ -1,6 +1,6 @@
 Management threads (at least 2) with mechanisms synchronization
 
-    The project is constituted from two classes. The class CountNumbersIR behaves like a thread because it implements the interface Runnable. This class contains the method run which 
+     The project is constituted from two classes. The class CountNumbersIR behaves like a thread because it implements the interface Runnable. This class contains the method run which
 is required from interface Runnable. In this method, every thread which we create it in class ReadFilesRunnable manages the content of a file and appears all integer numbers, it 
 calculates and appears the sum of these numbers. This class appears all above using a synchronized lock, particularly the class contains as a attribute a static final object of class
 Object. This attribute is static which means that it is not belong in anything instance of class but it is belong in class. This attribute is final because we want to be stable. 
