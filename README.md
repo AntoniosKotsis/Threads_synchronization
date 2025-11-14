@@ -1,4 +1,4 @@
-Management threads (at least 2) with mechanisms synchronization
+MANAGEMENT THREADS (AT LEAST 2) WITH MECHANISMS SYNCHRONIZATION
 
     The project is constituted from two classes. The class CountNumbersIR behaves like a thread because it implements the interface Runnable. This class contains the method run which 
 is required from interface Runnable. In this method, every thread which we create it in class ReadFilesRunnable manages the content of a file and appears all integer numbers, it 
@@ -7,7 +7,6 @@ Object. This attribute is static which means that it is not belong in anything i
 This attribute constitutes a shared attribute for objects of this class. We use this lock because we want appear the content of every file together and not ruffled elemnts of every
 file. For this target we use the keyword synchronized so that elements of every file to appeared together and not ruffled. This block of data constitutes the critical section 
 by which only one thread at a time can have access.  
-
     The class ReadFilesRunnable manages objects of class CountNumberIR. These objects behave like threads. When we create these objects we traverse them in constructors of class Thread
 so that every thread to manage every object of class CountNumberIR as a single process with its space address of main memory. With this way we can run many program concurrently which
 is called parallelism. The parallelism helps to manage and share resources of main memory in processes. This way is flexible for programs which consume many resources.
