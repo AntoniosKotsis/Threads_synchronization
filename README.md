@@ -1,4 +1,4 @@
-# MANAGEMENT THREADS (AT LEAST 2) WITH MECHANISMS SYNCHRONIZATION
+## MANAGEMENT THREADS (AT LEAST 2) WITH MECHANISMS SYNCHRONIZATION
 
     The project is constituted from two classes. The class CountNumbersIR behaves like a thread because it implements the interface Runnable. This class contains the method run which 
 is required from interface Runnable. In this method, every thread which we create it in class ReadFilesRunnable manages the content of a file and appears all integer numbers, it 
